@@ -69,7 +69,7 @@ body {
 }
 .flex-item {
   width: 50%;
-  position: relative;
+
   padding: 0 8rem;
 }
 .flex-item > *:not(:last-child) {
