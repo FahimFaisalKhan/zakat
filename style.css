@@ -135,7 +135,7 @@ body {
   padding: 1rem 3rem;
 }
 .help-card {
-  width: 40%;
+  width: 46.5%;
   margin-bottom: 3rem;
   display: flex;
   float: left;
@@ -159,7 +159,7 @@ body {
 .help-card-box {
   display: table;
   clear: both;
-  margin-left: 23rem;
+  margin-left: 7rem;
 }
 
 .sec-pic {
