@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  max-width: 100%;
+}
+.sec-header {
+  width: 100%;
+  height: 87vh;
+  background-image: linear-gradient(
+      90deg,
+      #1a1a1a -0.7%,
+      rgba(26, 26, 26, 0) 100%
+    ),
+    url(images/hat.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.header-content {
+  width: 750px;
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+}
+.heading-primary {
+  font-size: 90px;
+  color: white;
+  font-weight: 700;
+  line-height: 7rem;
+}
+.header-content > *:not(:first-child) {
+  margin-top: 2rem;
+}
+.line-break {
+  display: block;
+}
+.paragraph {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 2.6rem;
+}
+.btn {
+  color: white;
+  font-weight: 700;
+  padding: 26px 29px;
+  background-color: #ef233c;
+  border-radius: 6px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+}
+/* sec-video */
+.sec-video {
+  margin: 20rem 10rem;
+}
+.flex-box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.sec-video > *:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.flex-item {
+  width: 50%;
+  position: relative;
+  padding: 0 8rem;
+}
+.flex-item > *:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.color-black {
+  color: black;
+  font-size: 70px;
+  line-height: 5.5rem;
+}
+.color-grey {
+  color: #707070;
+}
+.video {
+  margin: 0 auto;
+  display: block;
+  width: 50rem;
+  height: 54rem;
+  object-fit: initial;
+  border-radius: 9px;
+}
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #ef233b6b;
+  border-radius: 50%;
+  border: 2rem solid #ef233b6b;
+  padding: 1rem;
+  padding-left: 1.2rem;
+  text-align: center;
+  background-color: transparent;
+}
+.sec-video-img {
+  width: 50rem;
+  height: 54rem;
+  border-radius: 10px;
+}
+
+.sec-help {
+  margin: 5rem;
+}
+.sec-help-header {
+  text-align: center;
+  width: 60rem;
+  margin: 5rem auto;
+}
+.sec-help-header h1 {
+  margin-bottom: 2rem;
+  display: inline-block;
+  padding: 0 5rem;
+}
+.small {
+  font-size: 35px;
+}
+.icon {
+  color: #ef233c;
+  font-size: 5rem;
+  margin-top: 2.8rem;
+  padding: 1rem 3rem;
+}
+.help-card {
+  width: 40%;
+  margin-bottom: 3rem;
+  display: flex;
+  float: left;
+  border-radius: 10px;
+  margin-right: 3rem;
+  background-color: #fef4f5;
+}
+
+.help-flex-item:first-child {
+  width: 20%;
+  text-align: center;
+}
+.help-flex-item:last-child {
+  width: 80%;
+  padding: 3rem 3.6rem;
+  padding-bottom: 4rem;
+}
+.help-card .flex-item {
+  padding: 0 2rem;
+}
+.help-card-box {
+  display: table;
+  clear: both;
+  margin-left: 23rem;
+}
+
+.sec-pic {
+  margin: 10rem auto;
+  width: 80%;
+}
+.pic-flex {
+  width: 30%;
+  text-align: left;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.pic-flex:not(:first-child) {
+  margin-left: 2.5rem;
+}
+.pic-img {
+  width: 100%;
+  height: 35rem;
+  border-radius: 15px;
+}
+.pic-img-1 {
+  background-image: linear-gradient(315deg, #63d47046 0%, #23332956 74%),
+    url(images/sadman.jpg);
+  background-size: cover;
+}
+.pic-img-2 {
+  background-image: linear-gradient(315deg, #2a2a725e 0%, #00a0fd57 74%),
+    url(images/night_mosq.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.sec-hereafter {
+  margin: 10rem 15rem;
+  text-align: center;
+}
+.hereafter-header {
+  width: 60%;
+  margin: 0 auto;
+}
+.hereafter-header p {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.card-img {
+  width: 100%;
+}
+.card-text {
+  padding: 2rem 2.5rem;
+}
+.sec-hereafter .pic-flex {
+  border: 1px solid #d9d9d9;
+}
+.donate-link {
+  color: #ef233c;
+  text-transform: capitalize;
+  font-size: 31px;
+  font-weight: 700;
+  margin: 2rem auto;
+  display: inline-block;
+}
+footer {
+  width: 100%;
+  padding: 7rem 0;
+  background-color: #0b0d17;
+  text-align: center;
+}
+.heading-tertiary {
+  font-family: "Lobster", cursive;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ef233c;
+  margin-bottom: 3rem;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+}
