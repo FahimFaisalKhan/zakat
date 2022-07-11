@@ -69,12 +69,12 @@ body {
 }
 .flex-item {
   width: 50%;
-
+  position: relative;
   padding: 0 2rem;
 }
 .flex-item > *:not(:last-child) {
   margin-bottom: 2rem;
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 .color-black {
   color: black;
