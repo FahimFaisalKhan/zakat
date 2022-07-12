@@ -9,8 +9,9 @@ body {
 
 :root {
   --f-s-header-main: 55px;
-  --f-s-paragraph: 18px;
+  --f-s-paragraph: 20px;
   --f-s-header-secon: 45px;
+  --f-s-paragraph-big: 22px;
 }
 .sec-header {
   width: 100%;
@@ -47,7 +48,7 @@ body {
 }
 .paragraph {
   color: #ffffff;
-  font-size: var(--f-s-paragraph);
+  font-size: var(--f-s-paragraph-big);
   line-height: 2.6rem;
 }
 .btn {
@@ -122,7 +123,7 @@ body {
   background-color: transparent;
 }
 .sec-video-img {
-  width: 50rem;
+  width: 80%;
   height: 54rem;
   border-radius: 10px;
 }
