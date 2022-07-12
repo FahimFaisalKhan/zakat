@@ -38,7 +38,7 @@ body {
   font-size: var(--f-s-header-main);
   color: white;
   font-weight: 700;
-  line-height: 7rem;
+  line-height: 160%;
 }
 .header-content > *:not(:first-child) {
   margin-top: 2rem;
