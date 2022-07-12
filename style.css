@@ -10,7 +10,7 @@ body {
 :root {
   --f-s-header-main: 55px;
   --f-s-paragraph: 20px;
-  --f-s-header-secon: 45px;
+  --f-s-header-secon: 42px;
   --f-s-paragraph-big: 22px;
 }
 .sec-header {
@@ -33,6 +33,11 @@ body {
   top: 50%;
   left: 32%;
   transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1327px) {
+  .header-content {
+    width: 45%;
+  }
 }
 .heading-primary {
   font-size: var(--f-s-header-main);
@@ -74,6 +79,7 @@ body {
 .sec-video {
   margin: 20rem 12rem;
 }
+
 .flex-box {
   display: flex;
   width: 100%;
@@ -127,6 +133,20 @@ body {
   height: 54rem;
   border-radius: 10px;
 }
+@media screen and (max-width: 1327px) {
+  .sec-video {
+    margin: 20rem 4rem;
+  }
+  .flex-item {
+    padding: 0 1rem;
+  }
+  .video {
+    height: 44rem;
+  }
+  .sec-video-img {
+    height: 44rem;
+  }
+}
 
 .sec-help {
   margin: 5rem;
@@ -136,6 +156,7 @@ body {
   width: 40%;
   margin: 5rem auto;
 }
+
 .sec-help-header h1 {
   margin-bottom: 2rem;
   display: inline-block;
@@ -177,6 +198,27 @@ body {
   clear: both;
   margin-left: 7rem;
 }
+@media screen and (max-width: 1327px) {
+  .sec-help {
+    margin: 5rem 0;
+  }
+  .sec-help-header {
+    width: 80%;
+  }
+  .help-card-box {
+    margin-left: 8%;
+  }
+  .icon {
+    font-size: 3.4rem;
+  }
+  .help-flex-item:first-child {
+    width: 22%;
+  }
+  .help-flex-item:last-child {
+    width: 72%;
+    padding: 1rem;
+  }
+}
 
 .sec-pic {
   margin: 10rem auto;
@@ -206,6 +248,17 @@ body {
     url(images/night_mosq.jpg);
   background-size: cover;
   background-position: center;
+}
+@media screen and (max-width: 1327px) {
+  .pic-img {
+    height: 29rem;
+  }
+  .pic-img-1 {
+    background-position: center;
+  }
+  .pic-flex {
+    width: 33.33%;
+  }
 }
 .sec-hereafter {
   margin: 10rem 15rem;
@@ -240,6 +293,23 @@ body {
 }
 .donate-link:hover {
   color: #7fff00;
+}
+@media screen and (max-width: 1327px) {
+  .sec-hereafter {
+    margin: 10rem 5rem;
+  }
+  .hereafter-header {
+    width: 80%;
+  }
+  .card-text {
+    padding: 1rem;
+  }
+  .card-text .small {
+    font-size: 32px;
+  }
+  .donate-link {
+    margin: 0.5rem auto;
+  }
 }
 footer {
   width: 100%;
