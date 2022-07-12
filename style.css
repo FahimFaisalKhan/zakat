@@ -12,6 +12,7 @@ body {
   --f-s-paragraph: 20px;
   --f-s-header-secon: 42px;
   --f-s-paragraph-big: 22px;
+  --f-s-header-secon-small: 32px;
 }
 .sec-header {
   width: 100%;
@@ -163,7 +164,7 @@ body {
   padding: 0 5rem;
 }
 .small {
-  font-size: var(--f-s-header-secon);
+  font-size: var(--f-s-header-secon-small);
 }
 .icon {
   color: #ef233c;
@@ -205,6 +206,9 @@ body {
   .sec-help-header {
     width: 80%;
   }
+  .help-card {
+    width: 44%;
+  }
   .help-card-box {
     margin-left: 8%;
   }
@@ -213,6 +217,7 @@ body {
   }
   .help-flex-item:first-child {
     width: 22%;
+    margin-right: 1.5rem;
   }
   .help-flex-item:last-child {
     width: 72%;
@@ -286,7 +291,7 @@ body {
 .donate-link {
   color: #ef233c;
   text-transform: capitalize;
-  font-size: 31px;
+  font-size: var(--f-s-header-secon-small);
   font-weight: 700;
   margin: 2rem auto;
   display: inline-block;
@@ -304,9 +309,7 @@ body {
   .card-text {
     padding: 1rem;
   }
-  .card-text .small {
-    font-size: 32px;
-  }
+
   .donate-link {
     margin: 0.5rem auto;
   }
