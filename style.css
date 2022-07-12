@@ -35,7 +35,7 @@ body {
   left: 32%;
   transform: translate(-50%, -50%);
 }
-@media screen and (max-width: 1327px) {
+@media screen and (max-width: 1400px) {
   .header-content {
     width: 45%;
   }
@@ -134,7 +134,7 @@ body {
   height: 54rem;
   border-radius: 10px;
 }
-@media screen and (max-width: 1327px) {
+@media screen and (max-width: 1400px) {
   .sec-video {
     margin: 20rem 4rem;
   }
@@ -199,7 +199,7 @@ body {
   clear: both;
   margin-left: 7rem;
 }
-@media screen and (max-width: 1327px) {
+@media screen and (max-width: 1400px) {
   .sec-help {
     margin: 5rem 0;
   }
@@ -254,7 +254,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-@media screen and (max-width: 1327px) {
+@media screen and (max-width: 1400px) {
   .pic-img {
     height: 29rem;
   }
@@ -299,7 +299,7 @@ body {
 .donate-link:hover {
   color: #7fff00;
 }
-@media screen and (max-width: 1327px) {
+@media screen and (max-width: 1400px) {
   .sec-hereafter {
     margin: 10rem 5rem;
   }
